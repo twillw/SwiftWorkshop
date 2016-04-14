@@ -65,7 +65,6 @@ print(dateFormatter.stringFromDate(NSDate()))
   Swift is an Object-Oriented language making classes are extremely important. 
   Basic Swift class implementation:
     ```swift
-
        class Car {
 
          // basic property declaration
@@ -87,9 +86,11 @@ print(dateFormatter.stringFromDate(NSDate()))
            // drive car to location
          }
        }
+       ```
 
-// Now outside of class declaration we can create instances of our car class
+Now outside of class declaration we can create instances of our car class:
 
+```swift
 var coupe = Car(color: "red", doors: 2, numberOfCylinders: 6)
 
 // can now call drive on our car instance
@@ -97,11 +98,11 @@ coupe.drive(location: "Pizza Hut")
 
 // can also set the properties on our instance provided they are mutable
 print(car.color) // "red"
-  car.color = "blue"
+car.color = "blue"
 print(car.color) // "blue"
 
-  car.doors = 3 // this will cause an error because doors is a let instance property
-  ```
+car.doors = 3 // this will cause an error because doors is a let instance property
+```
 
 ####Optionals
   You'll see in Swift a lot of `?` and `!` 
@@ -127,7 +128,7 @@ print(optionalString!) // THIS WILL CRASH YOUR APP
     print(safeString)
   }
 
-guard lett safeString = optionalString else {
+guard let safeString = optionalString else {
   // this block is only executed if optionalString is nil
 }
 // safeString can be used safely outside of this block
@@ -173,3 +174,4 @@ someClosuremeClosure() // executes block of code in closure
   }
 
 print(reverseString("hey")) // "yeh"
+```
