@@ -1,4 +1,4 @@
-wift
+#Swift
 
 Swift is the newest programming language from Apple that they plan to eventually replace Objective-C.
 It is a compiled language (not interpreted like Python or Javascript).
