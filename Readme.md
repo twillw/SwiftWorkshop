@@ -62,9 +62,10 @@ print(dateFormatter.stringFromDate(NSDate()))
   ```
 
 ####Classes
-  Swift is an Object-Oriented language making classes are extremely important.
+  Swift is an Object-Oriented language making classes are extremely important. 
   Basic Swift class implementation:
     ```swift
+
        class Car {
 
          // basic property declaration
@@ -99,7 +100,7 @@ print(car.color) // "red"
   car.color = "blue"
 print(car.color) // "blue"
 
-  car.doors = 3 // this will cause an error because doors is a `let` instance property
+  car.doors = 3 // this will cause an error because doors is a let instance property
   ```
 
 ####Optionals
